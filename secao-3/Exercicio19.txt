@@ -1,0 +1,13 @@
+
+retirar a ferramenta do carro
+afrouxa os parafusos do pneu
+iça o carro com a ferramenta
+terminar de desparafusas
+retirar o pneu furado
+colocar o estepe no eixo 
+parafusar o pneu 
+abaixar o carro 
+retirar a ferramenta 
+guardar a ferramenta 
+guardar o pneu furado 
+
