@@ -1,21 +1,16 @@
-par = 1
-x = 0
+num = int(input("Digite um numero: "))
 
-while x <= 20:
+divisoes = 0
+contador = num
+
+while contador > 0:
     
-    if par % 2 == 0:
-        print(par)
-        print("par: %d" % par)
-        
-        
-        impar = 2
-        
-        while x <= 10:
-            
-           print(impar)
-           print("impar: %d" % impar)
-           impar = impar +1
-        
-        par = par + 1
-        
-        
+    if num % contador == 0:
+        divisoes = divisoes + 1
+    
+    contador = contador - 1
+    
+if divisoes == 2:
+    print("O numero %d é par" % num)
+else:
+    print("O numero %d não é primo: " % num)
